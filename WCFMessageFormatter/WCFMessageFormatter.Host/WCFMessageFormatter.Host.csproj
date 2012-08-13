@@ -55,7 +55,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WCFMessageFormatter.Contract\WCFMessageFormatter.Contracts.csproj">
+    <ProjectReference Include="..\WCFMessageFormatter.Contracts\WCFMessageFormatter.Contracts.csproj">
       <Project>{30DF64D4-B28C-45B2-9AC1-F5FEDFBED68D}</Project>
       <Name>WCFMessageFormatter.Contracts</Name>
     </ProjectReference>

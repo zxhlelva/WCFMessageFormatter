@@ -13,17 +13,17 @@ namespace WCFMessageFormatter.Contracts.DataContracts
     [Serializable]
     [XmlRoot(Namespace = "WWW.REST")]
     [JsonObject(MemberSerialization.OptIn)]
-    public class Organizitions
+    public class Organizition
     {
         [DataMember]
         [XmlAttribute(AttributeName = "res_link")]
         [JsonProperty("@ReponseLink")]
-        public string ReponseLink { get; set; }
+        public string ResponseLink { get; set; }
 
         //[DataMember]
         [XmlElement]
         [JsonProperty]
-        public List<string> Organizition { get; set; }
+        public List<string> Organizitions { get; set; }
 
         [DataMember]
         [XmlElement]

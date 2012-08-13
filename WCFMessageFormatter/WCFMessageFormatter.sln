@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFMessageFormatter.Contracts", "WCFMessageFormatter.Contract\WCFMessageFormatter.Contracts.csproj", "{30DF64D4-B28C-45B2-9AC1-F5FEDFBED68D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFMessageFormatter.Services", "WCFMessageFormatter.Services\WCFMessageFormatter.Services.csproj", "{C56CF5D9-FEB0-48C1-AA23-1943AE080D65}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFMessageFormatter.CustomServiceBehaviors", "WCFMessageFormatter.CustomServiceBehaviors\WCFMessageFormatter.CustomServiceBehaviors.csproj", "{FC62A7E0-95F4-4A1C-8C74-433D16846AE4}"
@@ -21,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		WCFMessageFormatter.vsmdi = WCFMessageFormatter.vsmdi
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFMessageFormatter.Contracts", "WCFMessageFormatter.Contracts\WCFMessageFormatter.Contracts.csproj", "{30DF64D4-B28C-45B2-9AC1-F5FEDFBED68D}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = WCFMessageFormatter.vsmdi
@@ -34,16 +34,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{30DF64D4-B28C-45B2-9AC1-F5FEDFBED68D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{30DF64D4-B28C-45B2-9AC1-F5FEDFBED68D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{30DF64D4-B28C-45B2-9AC1-F5FEDFBED68D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{30DF64D4-B28C-45B2-9AC1-F5FEDFBED68D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{30DF64D4-B28C-45B2-9AC1-F5FEDFBED68D}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{30DF64D4-B28C-45B2-9AC1-F5FEDFBED68D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{30DF64D4-B28C-45B2-9AC1-F5FEDFBED68D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{30DF64D4-B28C-45B2-9AC1-F5FEDFBED68D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{30DF64D4-B28C-45B2-9AC1-F5FEDFBED68D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{30DF64D4-B28C-45B2-9AC1-F5FEDFBED68D}.Release|x86.ActiveCfg = Release|Any CPU
 		{C56CF5D9-FEB0-48C1-AA23-1943AE080D65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C56CF5D9-FEB0-48C1-AA23-1943AE080D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C56CF5D9-FEB0-48C1-AA23-1943AE080D65}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -74,6 +64,16 @@ Global
 		{E527B6A5-62B8-48E9-B492-DF912A2DD62A}.Release|Mixed Platforms.Build.0 = Release|x86
 		{E527B6A5-62B8-48E9-B492-DF912A2DD62A}.Release|x86.ActiveCfg = Release|x86
 		{E527B6A5-62B8-48E9-B492-DF912A2DD62A}.Release|x86.Build.0 = Release|x86
+		{30DF64D4-B28C-45B2-9AC1-F5FEDFBED68D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30DF64D4-B28C-45B2-9AC1-F5FEDFBED68D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30DF64D4-B28C-45B2-9AC1-F5FEDFBED68D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{30DF64D4-B28C-45B2-9AC1-F5FEDFBED68D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{30DF64D4-B28C-45B2-9AC1-F5FEDFBED68D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{30DF64D4-B28C-45B2-9AC1-F5FEDFBED68D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30DF64D4-B28C-45B2-9AC1-F5FEDFBED68D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30DF64D4-B28C-45B2-9AC1-F5FEDFBED68D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{30DF64D4-B28C-45B2-9AC1-F5FEDFBED68D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{30DF64D4-B28C-45B2-9AC1-F5FEDFBED68D}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

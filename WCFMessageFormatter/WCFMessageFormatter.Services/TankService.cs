@@ -14,12 +14,12 @@ namespace WCFMessageFormatter.Services
             return this.MockTankData();
         }
 
-        public Organizitions RetrieveOrganizitions(string alt)
+        public Organizition RetrieveOrganizitions(string alt)
         {
             return this.MockOrganizitionData();
         }
 
-        public Organizitions RetrieveOrganizitions2(string alt)
+        public Organizition RetrieveOrganizitions2(string alt)
         {
             return this.MockOrganizitionData();
         }
@@ -76,12 +76,12 @@ namespace WCFMessageFormatter.Services
             };
         }
 
-        private Organizitions MockOrganizitionData()
+        private Organizition MockOrganizitionData()
         {
-            Organizitions organizitions = new Organizitions()
+            Organizition organizitions = new Organizition()
                                               {
-                                                  ReponseLink = "http://test",
-                                                  Organizition = new List<string>()
+                                                  ResponseLink = "http://test",
+                                                  Organizitions = new List<string>()
                                                                      {
                                                                          "Organizition1",
                                                                          "Organizition2"

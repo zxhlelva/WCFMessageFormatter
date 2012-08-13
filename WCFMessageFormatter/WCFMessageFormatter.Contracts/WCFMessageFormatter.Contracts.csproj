@@ -47,7 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataContracts\Organizitions.cs" />
+    <Compile Include="DataContracts\Organizition.cs" />
     <Compile Include="DataContracts\Tank.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServiceContracts\ITankService.cs" />

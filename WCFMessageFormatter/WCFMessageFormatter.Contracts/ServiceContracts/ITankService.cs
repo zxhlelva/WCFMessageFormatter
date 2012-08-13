@@ -20,11 +20,11 @@ namespace WCFMessageFormatter.Contracts.ServiceContracts
         //[WebGet]
         [WebGet(UriTemplate = "/alt/{alt}/", ResponseFormat = WebMessageFormat.Xml)]
         [OperationContract]
-        Organizitions RetrieveOrganizitions(string alt);
+        Organizition RetrieveOrganizitions(string alt);
 
         [WebGet(UriTemplate = "/alt2/{alt}/", ResponseFormat = WebMessageFormat.Xml)]
         [OperationContract]
-        Organizitions RetrieveOrganizitions2(string alt);
+        Organizition RetrieveOrganizitions2(string alt);
 
         [WebGet]
         [OperationContract]

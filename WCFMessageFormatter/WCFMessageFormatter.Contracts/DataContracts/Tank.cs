@@ -40,6 +40,8 @@ namespace WCFMessageFormatter.Contracts.DataContracts
         [DataMember(IsRequired = false)]
         [JsonProperty]
         public string Name { get; set; }
+
+        //[OnDeserializing]
     }
 
     //[DataContract]

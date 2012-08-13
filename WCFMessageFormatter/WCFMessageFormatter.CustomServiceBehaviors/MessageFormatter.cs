@@ -8,6 +8,8 @@ using System.ServiceModel.Web;
 using System.Xml;
 using System.Xml.Serialization;
 using Newtonsoft.Json;
+using System.ServiceModel;
+using System.Runtime.Serialization;
 
 namespace WCFMessageFormatter.CustomServiceBehaviors
 {
